@@ -1,0 +1,12 @@
+n1 = float(input('Digite a 1º Nota: '))
+n2 = float(input('Digite a 2º nota: '))
+md = float(n1 +n2) / 2
+print("Sua média é", md)
+if md <=10 and md >=6:
+  print("Parabéns você foi aprovado")
+elif md <6 and md >= 4:
+  print("Precisa de trabalho complementar")
+elif md <4 and md >=0:
+  print("Reprovado")
+elif md >10 or md <0:
+  print("Favor revisar as notas")
